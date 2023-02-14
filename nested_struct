@@ -34,6 +34,13 @@ int main()
     obj.cam.l.longi=788.898;
     
     cout<<obj.cam.front<<" "<<obj.cam.rear<<endl;
-    cout<<    obj.cam.l.lat;
+    cout<<obj.cam.l.lat<<" "<<obj.cam.l.longi<<endl;;
 
 }
+
+////////////////////////////////////////
+output
+--------
+
+9999 90909888
+999.77 788.898
