@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+struct lat 
+{
+    double lat;
+    double longi;
+};
+struct camera 
+{
+    int front;
+    int rear;
+    struct lat l;
+};
+struct phone 
+{
+    string name;
+    string processor;
+    int ram;
+    int rom;
+    struct camera cam;
+};
+
+int main()
+{
+    phone obj;
+    obj.name="Lucky";
+    obj.processor="IMAX";
+    obj.ram=90;
+    obj.rom=99;
+    obj.cam.front=9999;
+    obj.cam.rear=90909888;
+    obj.cam.l.lat=999.77;
+    obj.cam.l.longi=788.898;
+    
+    cout<<obj.cam.front<<" "<<obj.cam.rear<<endl;
+    cout<<    obj.cam.l.lat;
+
+}
